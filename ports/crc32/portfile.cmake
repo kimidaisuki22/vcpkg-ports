@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/crc32
-    REF 87a91835f33741d901f8ebab090a04a597470f85
+    REF 900f8cbf4dedb31aadc99302fe031aabe799979e
 	)
 # git rev-parse  HEAD
 
@@ -13,12 +13,11 @@ vcpkg_cmake_configure(
 )
 
 vcpkg_cmake_install()
-# vcpkg_copy_tools(TOOL_NAMES sum)
-vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake PACKAGE_NAME crc32)
+# vcpkg_copy_tools(TOOL_NAMES sum) 
 
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+ 
 
 vcpkg_copy_pdbs()
 vcpkg_fixup_pkgconfig() 
