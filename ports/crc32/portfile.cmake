@@ -16,14 +16,11 @@ vcpkg_cmake_install()
 # vcpkg_copy_tools(TOOL_NAMES sum) 
 
 
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
- 
-
 vcpkg_copy_pdbs()
 vcpkg_fixup_pkgconfig() 
 
 
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+# file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/bin" "${CURRENT_PACKAGES_DIR}/debug/bin")
 
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
