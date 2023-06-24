@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/crc32
-    REF c57c16a4b2570be4fa324c2b1afaaa6956efaf72
+    REF 87a91835f33741d901f8ebab090a04a597470f85
 	)
 # git rev-parse  HEAD
 
