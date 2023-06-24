@@ -14,14 +14,14 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 # vcpkg_copy_tools(TOOL_NAMES sum)
-# vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/Ogg PACKAGE_NAME ogg)
+vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake PACKAGE_NAME crc32)
 
 
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 
 vcpkg_copy_pdbs()
-vcpkg_fixup_pkgconfig()
+vcpkg_fixup_pkgconfig() 
 
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
