@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/win_manifests
-    REF 77ecbe7b5608d81bec4d2bd869e344b3d38e5e38
+    REF 530fc2b7856b1814457b6032363b5da68da79053
 	)
 
 vcpkg_cmake_configure(
