@@ -7,6 +7,10 @@
     "dirsystem": {
       "baseline": "0.0.1",
       "port-version": 1
+    },
+    "win_manifests":{
+      "baseline": "0.0.1",
+      "port-version": 0
     }
   }
 }
