@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-    "name": "win_manifests",
+    "name": "win-manifests",
     "version": "0.0.1",
     "port-version": 0,
     "dependencies": [
