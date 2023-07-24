@@ -5,10 +5,10 @@
       "port-version": 0
     },
     "dirsystem": {
-      "baseline": "0.0.1",
+      "baseline": "0.0.2",
       "port-version": 1
     },
-    "win-manifests":{
+    "win-manifests": {
       "baseline": "0.0.1",
       "port-version": 0
     }
