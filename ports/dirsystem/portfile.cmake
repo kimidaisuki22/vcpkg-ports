@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/dirsystem
-    REF bb5de5b4d582117a5283ee6a1b2b5b38eb7a97bc
+    REF 51085c6c7feb1eff75794dca36d823cd16aa3bfd
 	)
 
 vcpkg_cmake_configure(
