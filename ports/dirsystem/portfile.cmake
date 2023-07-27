@@ -18,5 +18,8 @@ vcpkg_copy_pdbs()
 
 # file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 # file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/bin" "${CURRENT_PACKAGES_DIR}/debug/bin")
+# remove duplicated file reported by vcpkg
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include)
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/share)
 
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
