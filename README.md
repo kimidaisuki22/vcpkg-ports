@@ -13,7 +13,7 @@ vcpkg --vcpkg-root=. x-add-version dirsystem
 
 to update your vcpkg.json manifest
 ```
-vcpkg x-update-base-line
+vcpkg x-update-baseline
 ```
 
 to test this repos
