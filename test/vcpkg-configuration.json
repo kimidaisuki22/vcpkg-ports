@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
+  "default-registry":  {
+    "kind": "builtin",
+    "baseline": "2023.07.21"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "C:/Users/ki/source/repos/vcpkg-ports/",
+      "baseline": "4823d8acb29ae85c17288f581f8ddc5f1ed145d7",
+      "packages": [ "dirsystem" ]
+    }
+  ]
+}
