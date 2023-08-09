@@ -14,7 +14,7 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/dirsystem)
-vcpkg_fixup_pkgconfig()
+vcpkg_fixup_pkgconfig() # for libdirsystem.pc, but does it needed by cmake? maybe not.
 vcpkg_copy_pdbs()
 
 
