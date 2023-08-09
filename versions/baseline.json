@@ -6,7 +6,7 @@
     },
     "dirsystem": {
       "baseline": "0.0.3",
-      "port-version": 2
+      "port-version": 3
     },
     "win-manifests": {
       "baseline": "0.0.1",
