@@ -6,3 +6,6 @@ add_executable(main main.cpp)
 
 find_package(dirsystem CONFIG REQUIRED)
 target_link_libraries(main PRIVATE dirsystem::dirsystem)
+
+find_package(cy CONFIG REQUIRED)
+target_link_libraries(main PRIVATE cy::cy)
