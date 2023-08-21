@@ -1,0 +1,20 @@
+{
+  "name": "asynccurl",
+  "version": "0.0.1",
+  "description": "Use curl with coroutine.",
+  "homepage": "https://github.com/kimidaisuki22/asynccurl",
+  "dependencies": [
+    "curl",
+    "fmt",
+    "nlohmann-json",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
