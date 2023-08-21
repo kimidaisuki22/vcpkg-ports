@@ -1,6 +1,7 @@
 {
   "name": "asynccurl",
   "version": "0.0.1",
+  "port-version": 1,
   "description": "Use curl with coroutine.",
   "homepage": "https://github.com/kimidaisuki22/asynccurl",
   "dependencies": [
