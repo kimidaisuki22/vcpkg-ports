@@ -2,13 +2,15 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/cy
-    REF 97d71c6caea4f980b4826a82e0936124dfa87d88
+    REF 0795fdd5f2673538b4e3eab48f549e2f8bd3bcd9
 	)
 
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS
         -DBUILD_TESTING=OFF
+        -Dcy_BENCHMARK=OFF
+        -Dcy_BUILD_EXAMPLE=OFF
 )
 
 vcpkg_cmake_install()
