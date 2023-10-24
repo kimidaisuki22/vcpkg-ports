@@ -2,7 +2,7 @@
   "default": {
     "asynccurl": {
       "baseline": "0.0.1",
-      "port-version": 1
+      "port-version": 2
     },
     "crc32": {
       "baseline": "0.1.1",
