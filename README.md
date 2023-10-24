@@ -4,6 +4,11 @@ A few ports of mine.
 to get git tree use: git rev-parse HEAD:ports/xxx
 
 
+to install local port:
+```
+vcpkg install --overlay-ports=ports\xxx\ xxx
+```
+
 update version for port:
 ```
 vcpkg --vcpkg-root=. format-manifest .\ports\dirsystem\vcpkg.json
