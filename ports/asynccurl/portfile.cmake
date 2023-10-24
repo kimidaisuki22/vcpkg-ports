@@ -38,8 +38,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO kimidaisuki22/asynccurl
-    REF 7348448540f20cb381d1cd89a907d0c108ceaed7
-    SHA512 7397f7b529bcf95bb91cb8c52977bfe14ae090c00275672d98a8f9a3aa105c9ec9de79aa312297db74e5c32b4a3ac03b74160e2add9cc0ff0f5f9ed1e682f240
+    REF edbdccb6ecb666187bbf3aa03a3595c3c3afbbb1
+    SHA512 1864067861bffde3e67d973e35129ed2f6e974fedf41e6e9e231c0f2fc0db7daaae5de6943e5a3951d2632ae09a06cb033ec326bc8577afe1c1634c1dddbd107
     HEAD_REF main
 )
 
