@@ -38,8 +38,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO kimidaisuki22/image_process
-    REF  943f27820ba40add13e5f7e165d094797e2de563
-    SHA512 569d83c2225629471c13fc1b4248f8c9f170a1505ace04b2b0fc333397686f0e495f6621501104325c6ade846e57777982ad13f49fa7e15f1ea0928917de8a29
+    REF  d0bd93e426ce2447987a8bcbc5718f709a3ab78f
+    SHA512 fb365992a579db0e2984c30626b4fa8a40fe50801bc927b501831d5763bade4b1f33902ae00079a3be4c874fd772e5774edf6e81cef9271835ed86771665bc8c
     HEAD_REF main
 )
 
@@ -67,7 +67,7 @@ vcpkg_cmake_install()
 #    "name": "vcpkg-cmake-config",
 #    "host": true
 #}
-vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/image_process)
+vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/image-process)
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 
 # Uncomment the line below if necessary to install the license file for the port
