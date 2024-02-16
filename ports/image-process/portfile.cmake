@@ -52,7 +52,7 @@ vcpkg_from_github(
 #   INVERTED_FEATURES
 #     tbb   ROCKSDB_IGNORE_PACKAGE_TBB
 # )
-
+vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
     OPTIONS -DBUILD_TESTING=OFF
