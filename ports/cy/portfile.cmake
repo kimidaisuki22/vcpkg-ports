@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/cy
-    REF 21c09c28e6bffcaf792b25337481df11215a3985
+    REF 7bd4bb92976244a1c15cf181843999d08cc9b4d9
 	)
 
 vcpkg_cmake_configure(
