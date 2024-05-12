@@ -12,6 +12,10 @@
       "baseline": "0.0.8",
       "port-version": 0
     },
+    "cyx": {
+      "baseline": "0.0.1",
+      "port-version": 0
+    },
     "dirsystem": {
       "baseline": "0.0.4",
       "port-version": 2
