@@ -22,7 +22,7 @@
     },
     "image-process": {
       "baseline": "0.0.1",
-      "port-version": 5
+      "port-version": 6
     },
     "stb-impl": {
       "baseline": "0.0.1",
