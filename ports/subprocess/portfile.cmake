@@ -2,7 +2,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/kimidaisuki22/subprocess
-    REF 84d249c68c0b6395226d4a4441953905be38fad6
+    REF fd8a153abb39a363fc3944db79864d9734471e2a
 	)
 
 vcpkg_cmake_configure(
