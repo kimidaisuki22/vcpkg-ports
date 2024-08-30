@@ -18,7 +18,7 @@
     },
     "dirsystem": {
       "baseline": "0.0.4",
-      "port-version": 2
+      "port-version": 3
     },
     "image-process": {
       "baseline": "0.0.2",
